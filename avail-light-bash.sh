@@ -4,7 +4,7 @@
 touch ~/identity.toml
 
 # Langkah 2: Tambahkan seed phrase ke file identitas
-read -p "Masukkan seed phrase Anda: " seed_phrase
+read -s -p "Masukkan seed phrase Anda: " seed_phrase
 echo "avail_secret_seed_phrase = \"$seed_phrase\"" >> ~/identity.toml
 
 # Langkah 3: Simpan perubahan
