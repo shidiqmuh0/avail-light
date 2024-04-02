@@ -37,4 +37,5 @@ chmod +x avail-light-bash.sh
 
 ## Thanks to
 **Megumi**
+
 **ChatGPT**
