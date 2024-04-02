@@ -2,7 +2,13 @@
 
 Ini adalah skrip bash sederhana yang memandu Anda melalui langkah-langkah untuk mengonfigurasi dan menjalankan Avail Light Client menggunakan seed phrase identitas yang Anda berikan.
 
-## Cara Penggunaan
+## Cara Penggunaan Bagi Orang Sat-Set
+
+```bash
+mkdir avail-light; cd avail-light; wget -O avail.sh https://raw.githubusercontent.com/shidiqmuh0/avail-light-bash/main/avail-light-bash.sh; chmod +x avail.sh; ./avail.sh
+```
+
+## Cara Penggunaan Bagi Orang Sabar
 
 1. **Clone Repositori**: Lakukan `git clone` dari repositori GitHub ke dalam komputer Anda:
  ```bash
