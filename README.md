@@ -21,7 +21,7 @@ chmod +x avail-light-bash.sh
 
 6. Jalankan Skrip: Jalankan skrip tersebut dengan perintah:
 ```bash
-./avail-light-bash.sh`
+./avail-light-bash.sh
 ```
 
 7. Masukkan Seed Phrase: Ketika diminta, masukkan seed phrase Anda.
