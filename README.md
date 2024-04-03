@@ -20,7 +20,7 @@ mkdir avail-light; cd avail-light; wget -O avail.sh https://raw.githubuserconten
 
 ```bash
 cd ; rm -rf avail-light
-```bash
+```
 
 ## Cara Penggunaan Bagi Orang Sabar
 
@@ -64,7 +64,7 @@ chmod +x avail-light-bash.sh
 
 ```bash
 cd ; rm -rf avail-light-bash
-```bash
+```
 
 
 ## Referensi : 
