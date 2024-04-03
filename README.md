@@ -16,6 +16,11 @@ screen -S avail-light
 ```bash
 mkdir avail-light; cd avail-light; wget -O avail.sh https://raw.githubusercontent.com/shidiqmuh0/avail-light-bash/main/avail-light-bash.sh; chmod +x avail.sh; ./avail.sh
 ```
+## Cara Hapus Node Bagi Orang Sat-Set
+
+```bash
+cd ; rm -rf avail-light
+```bash
 
 ## Cara Penggunaan Bagi Orang Sabar
 
@@ -26,7 +31,7 @@ apt install screen
 
 2. Buat screen agar jalan di background
 ```bash
-screen -S avail-light
+screen -S avail-light-bash
 ```
 
 3.  **Clone Repositori**: Lakukan `git clone` dari repositori GitHub ke dalam komputer Anda:
@@ -54,6 +59,13 @@ chmod +x avail-light-bash.sh
 8. Tunggu Proses Selesai: Ikuti instruksi yang muncul di terminal dan tunggu sampai proses selesai.
 
 9. Selamat!: Avail sekarang telah dijalankan dengan identitas yang baru Anda konfigurasi.
+
+## Cara Hapus Node Bagi Orang Sabat
+
+```bash
+cd ; rm -rf avail-light-bash
+```bash
+
 
 ## Referensi : 
 **Avail Light** | https://abc.megumii.xyz/id/docs/what/avail-light
