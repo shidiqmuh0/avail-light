@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Langkah 1: Buat file identitas
-touch ~/identity.toml
+touch ~/avail-light/identity.toml
 
 # Langkah 2: Tambahkan seed phrase ke file identitas
 read -s -p "Masukkan seed phrase Anda: " seed_phrase
@@ -12,4 +12,4 @@ echo "Perubahan berhasil disimpan."
 
 # Langkah 4: Jalankan Avail dengan file identitas
 echo "Menjalankan Avail dengan identitas yang baru..."
-curl -sL1 avail.sh | bash -s -- --identity ~/identity.toml
+curl -sL1 avail.sh | bash -s -- --identity ~/avail-light/identity.toml
