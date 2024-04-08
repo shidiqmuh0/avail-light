@@ -14,7 +14,7 @@ screen -S avail-light
 ```
 3. Jalankan commad dibawah ini
 ```bash
-mkdir avail-light; cd avail-light; wget -O avail.sh https://raw.githubusercontent.com/shidiqmuh0/avail-light-bash/main/avail-light-bash.sh; chmod +x avail.sh; ./avail.sh
+mkdir avail-light; cd avail-light; wget -O avail.sh https://raw.githubusercontent.com/shidiqmuh0/avail-light/main/avail-light.sh; chmod +x avail.sh; ./avail.sh
 ```
 ## Cara Hapus Node Bagi Orang Sat-Set
 
@@ -36,22 +36,22 @@ screen -S avail-light-bash
 
 3.  **Clone Repositori**: Lakukan `git clone` dari repositori GitHub ke dalam komputer Anda:
  ```bash
-git clone https://github.com/shidiqmuh0/avail-light-bash.git
+git clone https://github.com/shidiqmuh0/avail-light.git
 ```
    
 3. Masuk ke Direktori: Buka terminal dan masuk ke direktori repositori yang telah Anda clone:
 ```bash
-cd avail-light-bash
+cd avail-light
 ```
 
 4. Beri Izin Eksekusi: Beri izin eksekusi pada skrip bash avail-light-bash.sh dengan perintah:
 ```bash
-chmod +x avail-light-bash.sh
+chmod +x avail-light.sh
 ```
 
 6. Jalankan Skrip: Jalankan skrip tersebut dengan perintah:
 ```bash
-./avail-light-bash.sh
+./avail-light.sh
 ```
 
 7. Masukkan Seed Phrase: Ketika diminta, masukkan seed phrase Anda.
@@ -63,7 +63,7 @@ chmod +x avail-light-bash.sh
 ## Cara Hapus Node Bagi Orang Sabat
 
 ```bash
-cd ; rm -rf avail-light-bash
+cd ; rm -rf avail-light
 ```
 
 
