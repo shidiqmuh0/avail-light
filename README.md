@@ -66,6 +66,28 @@ chmod +x avail-light.sh
 cd ; rm -rf avail-light
 ```
 
+## Perbaiki TCP
+Cek PID dari port 37000 :
+
+```bash
+sudo lsof -i :37000
+```
+Setelah itu kill PID tersebut
+
+Contoh :
+
+```bash
+kill 18236
+```
+
+## IO Error
+```bash
+rm -rf /root/.avail/data
+```
+
+```bash
+rm /root/.avail/data/LOCK
+```
 
 ## Referensi : 
 **Avail Light** | https://abc.megumii.xyz/id/docs/what/avail-light
