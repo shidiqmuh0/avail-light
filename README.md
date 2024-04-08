@@ -89,6 +89,11 @@ rm -rf /root/.avail/data
 rm /root/.avail/data/LOCK
 ```
 
+## Double toml
+```bash
+cd ; rm -rf avail-light; rm -rf identity.toml 
+```
+
 ## Referensi : 
 **Avail Light** | https://abc.megumii.xyz/id/docs/what/avail-light
 
