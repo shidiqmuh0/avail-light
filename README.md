@@ -31,7 +31,7 @@ apt install screen
 
 2. Buat screen agar jalan di background
 ```bash
-screen -S avail-light-bash
+screen -S avail-light
 ```
 
 3.  **Clone Repositori**: Lakukan `git clone` dari repositori GitHub ke dalam komputer Anda:
