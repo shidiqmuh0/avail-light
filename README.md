@@ -1,4 +1,4 @@
-# Avail Light Client Bash
+# Avail Light Client
 
 Ini adalah skrip bash sederhana yang memandu Anda melalui langkah-langkah untuk mengonfigurasi dan menjalankan Avail Light Client menggunakan seed phrase identitas yang Anda berikan.
 
